@@ -92,7 +92,7 @@
 				v1.value="速度x4.0";					
 			}
 			if(i1==5){
-				s1=s1/2;
+				s1=s1/3;
 				v1.value="速度x5.0";					
 			}
 			if(i1==6){
@@ -291,7 +291,7 @@
 		// create particle group/explosion
 		function createParticles( x, y ) {
 			// increase the particle count for a bigger explosion, beware of the canvas performance hit with the increased particles though
-			var particleCount = 1000;//大小
+			var particleCount = 500;//大小
 			while( particleCount-- ) {
 				particles.push( new Particle( x, y ) );
 			}
