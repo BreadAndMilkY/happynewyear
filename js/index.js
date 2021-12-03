@@ -1,7 +1,7 @@
 var str1 ="";
 var S = {
   init: function () {
-	var name=prompt("请输入你的名字","");
+	var name=prompt("请填写名字(点击图标播放音乐)","");
 				 var i1=0;
 				 for(i1=0;i1<name.length;i1++){	
 					 if(i1==(name.length-1)){
